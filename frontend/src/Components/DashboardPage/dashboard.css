@@ -1,0 +1,59 @@
+.left-container-header{
+    color: rgba(71, 68, 68, 1);
+    font-family: Jomhuria;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.left-container-mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container-mid button{
+    width: 9rem;
+}
+
+.left-container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.left-container-footer hr{
+    width: 9rem;
+    justify-self: left;
+    margin-inline: 0;
+}
+.left-container-footer button{
+    width: 9rem;
+}
+.eye-icon{
+    color: orangered;
+}
+
+
+
+  
+  /* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column; /* Stack containers on small screens */
+    }
+  
+    .left-container {
+      /* Adjust styling for the left container on small screens */
+    }
+  
+    .right-container {
+      /* Adjust styling for the right container on small screens */
+    }
+  
+    .create-Quiz-container,
+    .analytics-container {
+      display: block; /* Show both components on small screens */
+    }
+}
+  
